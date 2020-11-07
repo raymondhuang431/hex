@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.header {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 17px;
+    margin-bottom: 48px
+}
+
+h1 {
+    text-align: left;
+    font: normal normal normal 80px/94px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.profile-photo {
+    width: 324px;
+    margin-bottom: 48px
+}
+
+.title,
+.education,
+.experience {
+    font-size: 32px;
+    color: #000000;
+    border-bottom: 1px solid black;
+    Padding-bottom: 15px;
+    margin-bottom: 16px;
+}
+
+.container span {
+    font-size: 24px;
+    color: #A00404;
+}
+
+.content {
+    font: normal normal normal 24px/36px Noto Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    margin-bottom: 48px;
+}
+
+.container li {
+    margin-bottom: 24px;
+}
+
+.container-fluid {
+    width: 1920px;
+    background: #415165 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    padding-bottom: 24px;
+}
+
+.skill {
+    width: 996px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.skill,
+.contact,
+h2 {
+    font: normal normal medium 32px/45px PingFang TC;
+    color: #FFFFFF;
+}
+
+.skill,
+.contact span {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font: normal normal medium Roboto;
+}
+
+.skill-items {
+    margin-left: 852px;
+    padding-left: 24px;
+    text-align: left;
+    font: normal normal 300 24px/36px Roboto;
+    color: #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+}
+
+.content img {
+    width: 90PX;
+    height: 90px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 36px;
+    display: block;
+    width: 760px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 1920px;
+    background: #415165 0% 0% no-repeat padding-box;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    padding-bottom: 20px;
+}
+
+.contact {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.contact-items {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font: normal normal 300 24px/36px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.contact-items li {
+    margin-bottom: 16px;
+}
+
+.contact-items img {
+    margin-right: 24px;
+}
