@@ -194,8 +194,105 @@ table {
     font: italic normal bold 24px/42px Roboto;
     border-bottom: 1px solid #000000;
     margin-bottom: 32px;
+    padding-bottom: 24px;
 }
 
 .content .experience {
     font: italic normal bold 24px/42px Roboto;
+    margin-bottom: 56px
+}
+
+.content .experience li {
+    margin-bottom: 32px;
+}
+
+.experience li:before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #891818;
+    margin-right: 16px;
+}
+
+.brand-name {
+    background-color: #000000;
+    border: 1px solid #707070;
+    padding-top: 64px;
+    padding-bottom: 120px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.brand-name .title {
+    font: italic normal 64px/75px Roboto;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.brand-name .subtitle {
+    font: italic normal 24px/42px Roboto;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+
+.brand-name .text {
+    font: italic normal 20px/30px Roboto;
+    color: #ffffff;
+    margin-bottom: 68px;
+}
+
+.brand-name .pic {
+    margin-bottom: 40px;
+    margin-right: 24px;
+}
+
+.works {
+    text-align: center;
+}
+
+.works h2 {
+    font: italic normal 64px/75px Roboto;
+    margin-bottom: 24px;
+}
+
+.works p {
+    font: italic normal 20px/30px Roboto;
+    margin-bottom: 56px;
+}
+
+.works .works-pic {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pic-item img {
+    margin-bottom: 16px;
+}
+
+.pic-item p {
+    font: italic normal 20px/42px Roboto;
+}
+
+.footer {
+    background: #000;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 104px;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+.footer h2 {
+    font: italic normal 64px/75px Roboto;
+    margin-bottom: 16px;
+}
+
+.footer p {
+    font: italic normal 24px/36px Roboto;
+    margin-bottom: 16px;
 }
