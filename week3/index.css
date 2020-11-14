@@ -178,3 +178,13 @@ table {
     height: auto;
     margin-left: 30px;
 }
+
+.product img {
+    width: 25%;
+    height: 164px;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-around;
+}
