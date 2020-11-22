@@ -1,0 +1,459 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.header {
+    max-width: 100%;
+    background-color: #AA0601;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 88px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li {
+    margin-left: 64px;
+    margin-top: 10px;
+    text-align: center;
+    font: normal normal normal 20px/30px Noto Sans;
+    color: #FFFFFF;
+}
+
+.banner {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 840px;
+}
+
+.banner .subtitle {
+    font: normal normal normal 36px/54px Noto Sans;
+    color: #650300;
+    padding-left: 1400px;
+    padding-top: 350px;
+    text-align: left;
+}
+
+.banner h1 {
+    font: normal normal bold 64px/96px Noto Sans;
+    color: #650300;
+    padding-left: 1240px;
+    padding-bottom: 350px;
+    text-align: left;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.feature {
+    max-width: 100%;
+    background: #AA06010D 0% 0% no-repeat padding-box;
+    margin-bottom: 64px;
+}
+
+.feature .title {
+    font: normal normal bold 48px/72px Noto Sans;
+    color: #650300;
+    text-align: center;
+    padding-top: 64px;
+    margin-bottom: 60px;
+}
+
+.feature .card {
+    font: normal normal normal 16px/24px Noto Sans;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.feature .card img {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.feature li {
+    width: 208px;
+    margin-right: 76px;
+}
+
+.feature .subtitle {
+    font: normal normal bold 24px/36px Noto Sans;
+    color: #650300;
+    text-align: center;
+}
+
+.option .title {
+    font: normal normal bold 48px/72px Noto Sans;
+    color: #650300;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.option {
+    margin-bottom: 80px;
+}
+
+.option .row-reverse {
+    flex-direction: row-reverse;
+}
+
+.option li {
+    display: flex;
+    font: italic normal 900 48px/72px Roboto;
+    color: #AA0601;
+    margin-bottom: 30px;
+}
+
+.option .text {
+    display: flex;
+    align-self: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.product {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 743px;
+    margin-bottom: 64px;
+}
+
+.product .title {
+    font: normal normal bold 48px/72px Noto Sans;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 64px;
+}
+
+.product ul {
+    display: flex;
+    justify-content: center;
+}
+
+.product .double {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-8.png);
+    opacity: 0.5;
+    width: 540px;
+    box-sizing: border-box;
+    font: normal normal bold 72px/108px Roboto;
+    color: #AA0601;
+    text-align: center;
+    padding: 188px 104px;
+    margin-right: 30px;
+}
+
+.product .youth {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/product-9.png);
+    width: 540px;
+    font: normal normal bold 72px/108px Roboto;
+    color: #AA0601;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 188px 152px;
+}
+
+.product img {
+    opacity: 0.5;
+}
+
+.recommendation .title {
+    font: normal normal bold 48px/72px Noto Sans;
+    color: #650300;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.recommendation .card {
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.recommendation li {
+    margin-right: 30px;
+    border: 1px solid #DEE2E6;
+}
+
+.recommendation .card img {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.recommendation .name {
+    font: normal normal medium 14px/21px Roboto;
+    color: #212529;
+}
+
+.recommendation .intro {
+    font: normal normal normal 16px/24px Roboto;
+    color: #212529;
+}
+
+.recommendation .update_time {
+    font: normal normal normal 14px/21px Roboto;
+    color: #707070;
+}
+
+.contact_form {
+    background: #AA06010D 0% 0% no-repeat padding-box;
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+.container_form {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.container_form label {
+    display: block;
+}
+
+.container_form input {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.container_form textarea {
+    width: 100%;
+}
+
+.contact_form .checkbox {
+    width: 24px;
+    height: 24px;
+}
+
+.contact_form .submit {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    margin: 0 auto;
+    background: #AA0601;
+    text-align: center;
+    font: normal normal bold 16px/24px Noto Sans;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.contact_form .title {
+    font: normal normal bold 48px/72px Noto Sans;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contact_form P {
+    font: normal normal 20px/30px Noto Sans;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.footer {
+    max-width: 100%;
+    background-color: #AA0601;
+    padding-bottom: 28px;
+    padding-top: 48px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 16px/24px Noto Sans;
+    color: #FFFFFF;
+}
+
+.content p {
+    margin-right: 48px;
+}
+
+.content img {
+    margin-left: 48px;
+}
+
+.content li {
+    display: flex;
+}
+
+.contact {
+    font: normal normal normal 36px/54px Roboto;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 22px;
+    margin-bottom: 24px;
+}
+
+.contact img {
+    margin-right: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    font: normal normal normal 16px/24px Roboto;
+    color: #FFFFFF;
+    line-height: 38px;
+}
+
+.copyright .logo {
+    display: flex;
+    vertical-align: middle
+}
+
+.logo img {
+    margin-right: 38px;
+}
+
+.copyright .text {
+    display: flex;
+}
+
+.text p {
+    margin-left: 62px;
+}
