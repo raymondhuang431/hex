@@ -1,0 +1,20 @@
+.navbar h1 a {
+  background-image: url(../image/logo.png);
+  width: 128px;
+  height: 38px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.navbar a .person {
+  background-image: url(../image/logo.png);
+  width: 128px;
+  height: 38px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+/*# sourceMappingURL=index.css.map */
