@@ -10821,4 +10821,8 @@ a.text-dark:hover, a.text-dark:focus {
   overflow: hidden;
   white-space: nowrap;
 }
+
+.banner {
+  background-image: url(../image/index1.jpg);
+}
 /*# sourceMappingURL=all.css.map */

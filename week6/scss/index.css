@@ -17,4 +17,8 @@
   overflow: hidden;
   white-space: nowrap;
 }
+
+.banner {
+  background-image: url(../image/index1.jpg);
+}
 /*# sourceMappingURL=index.css.map */
