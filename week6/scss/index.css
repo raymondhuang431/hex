@@ -1,3 +1,11 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .navbar h1 a {
   background-image: url(../image/logo.png);
   width: 128px;
@@ -19,6 +27,45 @@
 }
 
 .banner {
-  background-image: url(../image/index1.jpg);
+  background: url(../image/index1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 870px;
+}
+
+.banner-context {
+  text-align: left;
+  font: normal normal normal 24px/36px SF Pro Text;
+  color: #FFFFFF;
+  margin-top: 295px;
+}
+
+.banner h1 {
+  font: normal normal bold 40px/60px SF Pro Text;
+}
+
+.banner .btn {
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  width: 350px;
+  color: #FFFFFF;
+}
+
+.content {
+  width: 350px;
+}
+
+.footer-subscribe {
+  background: url(image/product/photo-1532413992378-f169ac26fff0.png);
+  height: 600px;
+  max-width: 1920px;
+}
+
+.bg-primary {
+  background-color: #916000 !important;
+}
+
+img {
+  max-width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
