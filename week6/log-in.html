@@ -5,47 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="log-in.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="scss\all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light row ">
-            <div class="col-12 col-lg-7 row d-flex justify-content-around">
-                <div>
-                    <a href="index.html"><img src="image/layout/d’Perfume.png" alt=""></a>
-                </div>
-                <div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse col-12 col-lg-5" id="navbarTogglerDemo01">
-                <ul class="navbar-nav mr-sm-0 mt-2 mt-lg-0  ">
-                    <li class="nav-item active text-center">
-                        <a class="nav-link" href="product-list.html"><img src="image/layout/tshirt.png" alt="">Prodcut<span class="sr-only">(current)</span></a>
+    <nav class="navbar navbar-light navbar-expand-lg justify-content-between">
+        <div class="container d-flex justify-content-between">
+
+            <h1 class="logo"><a href="index.html">d'Perfume</a></h1>
+
+            <!-- nav bar for PC screen -->
+            <div class="d-md-block d-none">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item align-icons">
+                        <a href="products.html" class="nav-link">
+                            <span class="material-icons">store</span>Products
+                        </a>
                     </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="log-in.html"><img src="image/layout/user-alt.png" alt="">log in</a>
+                    <li class="nav-item align-icons">
+                        <a href="log-in.html" class="nav-link">
+                            <span class="material-icons">person</span>Log in
+                        </a>
                     </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link disabled" href="#"><img src="image/layout/heart.png" alt="">Wishlist</a>
+                    <li class="nav-item align-icons">
+                        <a href="wishlist.html" class="nav-link">
+                            <span class="material-icons">favorite</span>Wishlist
+                        </a>
                     </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link disabled" href="#"><img src="image/layout/shopping-cart.png" alt="">Chart(3)</a>
+                    <li class="nav-item align-icons">
+                        <a href="cart.html" class="nav-link">
+                            <span class="material-icons">shopping_cart</span>Cart(3)
+                        </a>
                     </li>
                 </ul>
             </div>
-        </nav>
+            <!-- nav bar for phone screen -->
+            <div class="d-md-none d-block">
+                <ul class="navbar-nav flex-row">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-2"><span class="material-icons">shopping_cart</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link p-2" data-toggle="collapse" data-target="#menuCollapse">
+                            <span class="material-icons">menu</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="collapse menu-collapse" id="menuCollapse">
+                    <ul class="nav menu">
+                        <li class="nav-item"><a href="products.html" class="nav-link">Product</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Wishlist</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="login.html" class="nav-link">Log in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid nav-list d-sm-none d-lg-block">
+        <div class="container ">
+            <ul class="row nav-brand d-flex col-12 col-md-6 justify-content-md-between ml-0">
+                <li>CHANEL</li>
+                <li>Jo Malone</li>
+                <li>Curology</li>
+                <li>Dior</li>
+                <li>Chole</li>
+                <li>ZARA</li>
+            </ul>
+        </div>
     </div>
     <div class="container mb-5">
         <div class="row">
             <div class="col-12 col-md-8">
-                <img src="image/log-in/photo-1515377905703-c4788e51af15.png" alt="">
+                <img src="image/login1.jpg" alt="">
             </div>
             <div class="col-12 col-md-4 d-flex align-items-center">
                 <form>
@@ -71,14 +107,12 @@
         </div>
     </div>
     <div class="container-fluid bg-primary ">
-        <div class="container ">
+        <div class="container">
             <div class="row footer-text">
                 <div class="col-12 col-md-6 d-flex ">
-                    <div>
-                        <a href="index.html">
-                            <img src="image/layout/d’Perfumew.png" alt="footer-logo">
-                        </a>
-                    </div>
+
+                    <h1 class="logo"><a href="index.html">d'Perfume</a></h1>
+
                     <div class="d-flex align-items-center">
                         <small>© 2020. All Rights Reserved.</small>
                     </div>
