@@ -1,0 +1,179 @@
+ .container {
+     width: 100%;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .navbar {
+     padding: 0px;
+ }
+ 
+ .navbar h1 a {
+     background-image: url(../image/logo.png);
+     width: 128px;
+     height: 38px;
+     display: block;
+     text-indent: 101%;
+     overflow: hidden;
+     white-space: nowrap;
+ }
+ 
+ .navbar a .person {
+     background-image: url(../image/logo.png);
+     width: 128px;
+     height: 38px;
+     display: block;
+     text-indent: 101%;
+     overflow: hidden;
+     white-space: nowrap;
+ }
+ 
+ .banner {
+     background: url(../image/index1.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 870px;
+     margin-bottom: 60px;
+ }
+ 
+ .banner-context {
+     text-align: left;
+     font: normal normal normal 24px/36px SF Pro Text;
+     color: #FFFFFF;
+     margin-top: 295px;
+ }
+ 
+ .banner h1 {
+     font: normal normal bold 40px/60px SF Pro Text;
+ }
+ 
+ .banner .btn {
+     border: 2px solid #FFFFFF;
+     border-radius: 30px;
+     width: 350px;
+     color: #FFFFFF;
+ }
+ 
+ .content {
+     width: 350px;
+ }
+ 
+ .content-text a {
+     border: 2px solid #000000;
+     border-radius: 30px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     font: normal normal 20px/30px SF Pro Text;
+     color: #000000;
+     padding: 18px 53px;
+     margin-top: 60px;
+     display: block;
+ }
+ 
+ .content h3 {
+     font: normal normal bold 32px/48px SF Pro Text;
+     color: #000000;
+ }
+ 
+ .content p {
+     font: normal normal 300 16px/24px SF Pro Text;
+     color: #000000;
+ }
+ 
+ .content .more {
+     font: normal normal 600 16px/24px PingFang TC;
+     color: #AC8A46;
+ }
+ 
+ .content-text {
+     width: 350px;
+ }
+ 
+ .content-text h3 {
+     font: normal normal 600 24px/36px SF Pro Text;
+ }
+ 
+ .content-text p {
+     font: normal normal 300 16px/24px SF Pro Text;
+ }
+ 
+ .product-list {
+     background-color: #E0E0E0;
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+ 
+ .card-img {
+     margin-bottom: 8px;
+ }
+ 
+ .recycle {
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+ 
+ .footer-subscribe {
+     background: url(../image/index10.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     height: 600px;
+ }
+ 
+ .footer-subscribe h3 {
+     font: normal normal 600 32px/48px PingFang TC;
+     color: #8D8D8D;
+ }
+ 
+ .input-group {
+     border: 2px solid #916000;
+     border-radius: 4px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+ }
+ 
+ .input-group-append {
+     text-align: center;
+     font: normal normal 16px/24px SF Pro Text;
+     color: #FFFFFF;
+ }
+ 
+ .form-control {
+     color: #8D8D8D;
+     font: normal normal 16px/24px SF Pro Text;
+     text-align: center;
+     padding: 21px 20px 16px 57px;
+     border: 0px;
+ }
+ 
+ .btn-primary {
+     background-color: #916000;
+     border: none;
+ }
+ 
+ .bg-primary {
+     background-color: #916000 !important;
+ }
+ 
+ .footer-text {
+     color: white;
+ }
+ 
+ .footer-text h1 a {
+     background-image: url(../image/d’Perfumewhite.png);
+     width: 128px;
+     height: 38px;
+     display: block;
+     text-indent: 101%;
+     overflow: hidden;
+     white-space: nowrap;
+ }
+ 
+ .footer-info {
+     display: inline;
+     list-style: none;
+     margin-bottom: 0;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
