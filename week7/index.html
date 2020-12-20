@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="scss\all.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>index</title>
 </head>
 
 <body>
@@ -66,7 +68,7 @@
             </div>
         </div>
     </nav>
-    <div class="banner">
+    <div class="banner" data-aos="fade-up">
         <div class="container">
             <div class="row  justify-content-end ">
                 <div class="col-12 col-lg-5 banner-context">
@@ -79,8 +81,8 @@
     </div>
 
     <div class="container">
-        <div class="row  no-gutters product flex-row-reverse ">
-            <div class=" col-12 col-md-6">
+        <div class="row  no-gutters product flex-row-reverse " data-aos="fade-left">
+            <div class=" col-12 col-md-6 ">
                 <img src="/image/index2.jpg" alt="">
             </div>
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center  ">
@@ -91,7 +93,7 @@
                 </div>
             </div>
         </div>
-        <div class="row  no-gutters product ">
+        <div class="row  no-gutters product " data-aos="fade-right">
             <div class=" col-12 col-md-6">
                 <img src="/image/index3.png" alt="">
             </div>
@@ -103,7 +105,7 @@
                 </div>
             </div>
         </div>
-        <div class="row  no-gutters product flex-row-reverse">
+        <div class="row  no-gutters product flex-row-reverse" data-aos="fade-left">
             <div class=" col-12 col-md-6 ">
                 <img src="/image/index4.jpg" alt="">
             </div>
@@ -115,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="row  no-gutters product">
+        <div class="row  no-gutters product" data-aos="fade-right">
             <div class=" col-12 col-md-6 ">
                 <img src="/image/index5.jpg" alt="">
             </div>
@@ -134,7 +136,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid product-list">
+    <div class="container-fluid product-list" data-aos="fade-up">
         <div class="container">
             <div class="row ">
                 <div class=" col-12 col-md-4 card-body">
@@ -175,7 +177,7 @@
         </div>
     </div>
     </div>
-    <div class="container recycle">
+    <div class="container recycle" data-aos="fade-up">
         <div class="row">
             <div class="col-12 col-md-8">
                 <img src="/image/index9.jpg" alt="">
@@ -191,7 +193,6 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid footer-subscribe d-flex align-items-center">
         <div class="container">
             <div class="row ">
@@ -230,7 +231,10 @@
             </div>
         </div>
     </div>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
