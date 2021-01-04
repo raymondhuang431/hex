@@ -1,4 +1,4 @@
-body {
+a {
     list-style: none;
 }
 
@@ -24,4 +24,8 @@ h5 {
 
 h6 {
     font: normal normal normal 16px/24px Noto Sans CJK TC;
+}
+
+image {
+    max-width: 100%;
 }
