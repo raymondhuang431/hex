@@ -10830,8 +10830,10 @@ h6 {
   font: normal normal normal 16px/24px Noto Sans CJK TC;
 }
 
-image {
+img {
   max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .logo {
